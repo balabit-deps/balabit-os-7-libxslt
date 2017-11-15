@@ -1,0 +1,10 @@
+0001-patch-xslt-config-to-add-private-libraries.patch
+0002-fix-autoconf-automake.patch
+0003-fix-typo.patch
+0004-Make-generate-id-deterministic.patch
+0005-Link-with-libm.patch
+0006-remove-plugin-in-xslt-config.patch
+0007-Fix-heap-overread-in-xsltFormatNumberConversion.patch
+0008-Check-for-integer-overflow-in-xsltAddTextString.patch
+0009-Rework-locale-feature-tests.patch
+0010-Add-missing-include.patch

@@ -1,0 +1,22 @@
+From: Aurelien Jarno <aurelien@aurel32.net>
+Date: Sun, 29 Oct 2017 01:04:54 +0200
+Subject: Link with libm
+
+Bug-Debian: https://bugs.debian.org/801989
+---
+ libxslt/Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/libxslt/Makefile.am b/libxslt/Makefile.am
+index d9fed68..9d44c3d 100644
+--- a/libxslt/Makefile.am
++++ b/libxslt/Makefile.am
+@@ -62,7 +62,7 @@ else
+ LIBXSLT_VERSION_SCRIPT =
+ endif
+ 
+-libxslt_la_LIBADD = $(LIBXML_LIBS) $(EXTRA_LIBS)
++libxslt_la_LIBADD = $(LIBXML_LIBS) $(M_LIBS) $(EXTRA_LIBS)
+ libxslt_la_LDFLAGS =					\
+ 		$(WIN32_EXTRA_LDFLAGS)			\
+ 		$(LIBXSLT_VERSION_SCRIPT)		\
