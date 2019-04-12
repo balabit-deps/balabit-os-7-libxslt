@@ -1,3 +1,14 @@
+libxslt (1.1.29-5ubuntu0.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Bypass of protection mechanism
+    - debian/patches/CVE-2019-11068.patch: Fix security
+      framework bypass checking for returns equal or less
+      -1 in libxslt/documents.c, libxslt/imports.c,
+      libxslt/transform.c,libxslt/xslt.c.
+    - CVE-2019-11068
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Fri, 12 Apr 2019 13:56:36 -0300
+
 libxslt (1.1.29-5) unstable; urgency=medium
 
   * Team upload.

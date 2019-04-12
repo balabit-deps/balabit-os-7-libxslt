@@ -8,3 +8,4 @@
 0008-Check-for-integer-overflow-in-xsltAddTextString.patch
 0009-Rework-locale-feature-tests.patch
 0010-Add-missing-include.patch
+CVE-2019-11068.patch
