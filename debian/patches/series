@@ -9,3 +9,6 @@
 0009-Rework-locale-feature-tests.patch
 0010-Add-missing-include.patch
 CVE-2019-11068.patch
+CVE-2019-13117.patch
+CVE-2019-13118.patch
+CVE-2019-18197.patch

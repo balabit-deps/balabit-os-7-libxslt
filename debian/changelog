@@ -1,3 +1,22 @@
+libxslt (1.1.29-5ubuntu0.2) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Uninitialized read
+    - debian/patches/CVE-2019-13117.patch: Fix uninitialized
+      read of xsl:number token in libxslt/numbers.c.
+    - CVE-2019-13117
+  * SECURITY UPDATE: Uninitialized read
+    - debian/patches/CVE-2019-13118.patch: Fix uninitialized
+      read with UTF-8 grouping chars in libxslt/numbers.c,
+      tests/docs/bug-222.xml, tests/general/bug-222.out,
+      tests/general/bug-222.xsl.
+    - CVE-2019-13118
+  * SECURITY UPDATE: Buffer over-read
+    - debian/patches/CVE-2019-18197.patch: Fix dangling
+      pointer in xsltCopyText in libxslt/transform.c.
+    - CVE-2019-18197
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Tue, 22 Oct 2019 09:52:39 -0300
+
 libxslt (1.1.29-5ubuntu0.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Bypass of protection mechanism
